@@ -1,0 +1,11 @@
+// Wrangler configuration for Cloudflare Workers deployment
+{
+    "name": "automl-saadddd",
+    "compatibility_date": "2026-04-15",
+    "observability": {
+        "enabled": true
+    },
+    "compatibility_flags": [
+        "nodejs_compat"
+    ]
+}

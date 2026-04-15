@@ -1,11 +1,16 @@
-// Wrangler configuration for Cloudflare Workers deployment
 {
-    "name": "automl-saadddd",
-    "compatibility_date": "2026-04-15",
-    "observability": {
-        "enabled": true
-    },
-    "compatibility_flags": [
-        "nodejs_compat"
-    ]
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "automl-saadddd",
+  "compatibility_date": "2026-04-15",
+  "observability": {
+    "enabled": true
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "main": ".open-next/worker.js",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
 }

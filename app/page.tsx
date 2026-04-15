@@ -74,7 +74,7 @@ export default function Home() {
 
       <div className="min-h-screen bg-[#0a0a0f]">
         {/* Header */}
-        <header className="border-b border-[#2a2a3a] bg-[#0a0a0f]/80 backdrop-blur-sm sticky top-0 z-40">
+        <header className="border-b border-[#2a2a3a] bg-[#0d0d14] sticky top-0 z-40">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
@@ -91,9 +91,9 @@ export default function Home() {
                 </span>
               )}
               <div className={`w-2 h-2 rounded-full transition-colors ${polling ? "bg-blue-400 animate-pulse" :
-                  showResults ? "bg-green-400" :
-                    failed ? "bg-red-400" :
-                      "bg-[#2a2a3a]"
+                showResults ? "bg-green-400" :
+                  failed ? "bg-red-400" :
+                    "bg-[#2a2a3a]"
                 }`} />
             </div>
           </div>

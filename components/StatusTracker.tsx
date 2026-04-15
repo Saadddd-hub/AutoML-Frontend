@@ -97,7 +97,7 @@ export default function StatusTracker({ jobId, polling, onCompleted, onFailed, o
     }, [polling, jobId]);
 
     useEffect(() => {
-        logsEndRef.current?.scrollIntoView({ behavior: "smooth" });
+        logsEndRef.current?.scrollIntoView({ behavior: "auto" });
     }, [logs]);
 
     const cfg = status ? statusConfig[status.status] : null;

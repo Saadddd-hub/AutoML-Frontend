@@ -36,7 +36,7 @@ export default function ToastContainer({ toasts, onRemove }: Props) {
             {toasts.map((t) => (
                 <div
                     key={t.id}
-                    className={`flex items-start gap-3 px-4 py-3 rounded-lg border backdrop-blur-sm
+                    className={`flex items-start gap-3 px-4 py-3 rounded-lg border
             ${colors[t.type]} ${t.exiting ? "animate-toast-out" : "animate-toast-in"}`}
                 >
                     <span className="mt-0.5 shrink-0">{icons[t.type]}</span>

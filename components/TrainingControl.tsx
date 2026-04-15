@@ -66,7 +66,7 @@ export default function TrainingControl({ jobId, onStarted, onToast }: Props) {
                             ? "bg-[#1a1a24] text-[#6b7280] cursor-not-allowed border border-[#2a2a3a]"
                             : loading
                                 ? "bg-green-500/20 text-green-400 border border-green-500/30 cursor-not-allowed"
-                                : "bg-green-500 hover:bg-green-400 text-black cursor-pointer shadow-lg shadow-green-500/20 hover:shadow-green-500/30 animate-pulse-glow"
+                                : "bg-green-500 hover:bg-green-400 text-black cursor-pointer shadow-lg shadow-green-500/20 hover:shadow-green-500/30"
                         }`}
                 >
                     {loading ? (

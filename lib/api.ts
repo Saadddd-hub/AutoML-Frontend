@@ -1,4 +1,5 @@
-const BASE = "http://127.0.0.1:8000";
+//const BASE = "http://127.0.0.1:8000";
+const BASE = "https://automl-ml-engine.onrender.com/";
 
 export async function uploadFile(file: File): Promise<{ job_id: string }> {
     const form = new FormData();
